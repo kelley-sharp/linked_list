@@ -6,6 +6,7 @@ const jwt = require('jsonwebtoken');
 const bcrypt = require('bcrypt');
 
 // global auth variable to store things for all the tests
+
 const auth = {};
 
 beforeAll(async () => {
